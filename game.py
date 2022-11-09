@@ -1,7 +1,7 @@
 from gameClasses import *
 
-player1: Player = Player("player1","X")
-player2: Player = Player("player2","O")
+player1: Player = Player("player1", "X")
+player2: Player = Player("player2", "O")
 gameInstance: Game = Game(player1=player1, player2=player2)
 
 def display_win_message():
