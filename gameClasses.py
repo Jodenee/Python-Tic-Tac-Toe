@@ -2,8 +2,8 @@ import time
 
 class Player:
     def __init__(self, id, symbol) -> None:
-        self.id = id
-        self.symbol = symbol
+        self.id: int = id
+        self.symbol: str = symbol
 
 class GridBox:
     def __init__(self, id) -> None:
